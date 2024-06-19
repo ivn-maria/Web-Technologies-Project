@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white;
+}
+
+button {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #BFE7F9;
+    padding: 10px 20px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#container-logo {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: left;
+}
+
+#container-logo img {
+    width: 70px;
+    height: 70px;
+}
+
+.user-info-1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.user-info-2 {
+    font-size: 14px;
+    width: max-content;
+    margin: 0;
+}
+
+.container-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-buttons {
+    background-color: #20A0D8;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.doctor-buttons {
+    background-color: #41CC46;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.container-buttons button:hover {
+    background-color: #ccc;
+    color: black
+}
+
+.search-bar {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar input {
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.search-bar select {
+    background-color: #BFE7F9;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.search-button, .reviews-button, .note-button, .review-button, .rating-button {
+    background-color: #41CC46;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.search-button:hover, .reviews-button:hover, .note-button:hover, .review-button:hover, .rating-button:hover {
+    background-color: #ccc;
+    color: black
+}
+
+.results-table {
+    background-color: #20A0D8;
+    color: white;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.results-table th, .results-table td {
+    padding: 8px;
+    text-align: left;
+}
+
+.results-table td {
+    background-color: #BFE7F9;
+    color: black;
+}
+
+.container-form {
+    width: 40%;
+}
+
+.appointment-form, .doctor-card {
+    background: #BFE7F9;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-form h2, .doctor-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.appointment-form input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.appointment-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #41CC46;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.appointment-form input[type="submit"]:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.info-item {
+    margin-bottom: 15px;
+}
+
+.info-item label {
+    font-weight: bold;
+}
+
+.container-appointments {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.reserve-button {
+    width: 20%;
+}
+
+.note-form, .review-form, .rating-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.note-input, .review-input, .rating-input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.error {
+    color: red;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+#reviews {
+    width: 100%;
+}
+
+#reserved, #results, #patient-appointments {
+    width: 80%;
+}
+
+#free-doctor {
+    width: 60%;
+}
+
+#free, .doctor-information {
+    width: 50%;
+}
